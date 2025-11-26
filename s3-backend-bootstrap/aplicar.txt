@@ -1,0 +1,5 @@
+bucket_name         = "ccuevas-cheese-factory"
+dynamodb_table_name = "tf-lock-cheese"
+
+project = "cheese"
+env     = "global"

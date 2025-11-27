@@ -4,11 +4,12 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "cheese-tfstate-global-ccuevas-lab"
+    bucket         = "ccuevas-cheese-state-001"
     key            = "global/cheese/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "tf-lock-cheese"
     encrypt        = true
   }
 }
+
 
